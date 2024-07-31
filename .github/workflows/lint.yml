@@ -28,10 +28,10 @@ jobs:
 
       - name: Super-linter
         # You may pin to the exact commit or the version.
-        uses: super-linter/super-linter@v6.8.0
+        # uses: super-linter/super-linter@v6.8.0 # Not ready yet
         # uses: super-linter/super-linter@deaddeaddeaddeaddeaddeaddeaddeaddeaddead # Error: An action could not be found at the URI 'https://api.github.com/repos/super-linter/super-linter/tarball/deaddeaddeaddeaddeaddeaddeaddeaddeaddead' (C080:1284A4:51997:6257F:66AA05DB)
         # uses: super-linter/super-linter@doesthismatteratall # Error: Unable to resolve action `super-linter/super-linter@doesthismatteratall`, unable to find version `doesthismatteratall`
-        # uses: super-linter/super-linter@20c4df58c060cf122dce53b14ec578d48d921fb0 # Seems to pull version 6.7
+        uses: super-linter/super-linter@20c4df58c060cf122dce53b14ec578d48d921fb0 # Seems to pull version 6.7
         # uses: super-linter/super-linter@a8150b40c89574adb5f68bf9502b890a236a06b3 # Pulls "v5"
         # uses: super-linter/super-linter@latest # Pulls version 6.7 on 31 July 2024
           
