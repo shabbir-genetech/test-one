@@ -38,3 +38,4 @@ jobs:
           VALIDATE_PHP_PHPSTAN: true
           VALIDATE_ALL_CODEBASE: false
           LINTER_RULES_PATH: .
+          PHP_PHPSTAN_CONFIG_FILE: non-default-name.neon
